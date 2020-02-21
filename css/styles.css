@@ -1,0 +1,16 @@
+.welcome {
+    background-image: url(../IP3-master/assets/backgrounds/h_img.jpg);
+    text-align: center;
+    margin: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 300px;
+    padding-bottom: 300px;
+    margin-right: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 300px;
+    font-weight: 100;        
+}
+
