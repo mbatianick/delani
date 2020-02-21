@@ -10,7 +10,11 @@
     padding-right: 20px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 300px;
-    font-weight: 100;        
+    padding-top: 300px;      
+}
+.w-h1 {
+    color: white;
+    padding-top: 5px;
+    
 }
 
