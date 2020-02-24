@@ -63,35 +63,75 @@ h6 {
 
 .cont {
     background-image: url(../IP3-master/assets/backgrounds/c_image.jpg);
+    background-size: cover;
 }
 .col-p {
     text-align: center;
 }
 #proj1 {
     background-image: url(../IP3-master/assets/portfolio/work1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    padding-bottom: 50px;
+    height: 200px;
+    
+    
 }
 #proj2 {
     background-image: url(../IP3-master/assets/portfolio/work2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
 }   
 #proj3 {
     background-image: url(../IP3-master/assets/portfolio/work3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
 }
 #proj4 {
     background-image: url(../IP3-master/assets/portfolio/work4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
 }
 #proj5 {
-    background-image: url(../IP3-master/assets/portfolio/work5.jpg)
+    background-image: url(../IP3-master/assets/portfolio/work5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    height: 200px;
 } 
 #proj6 {
     background-image: url(../IP3-master/assets/portfolio/work6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
 }
 #proj7 {
     background-image: url(../IP3-master/assets/portfolio/work7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
 }
 #proj8 {
     background-image: url(../IP3-master/assets/portfolio/work8.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
 }
-
+.prod-showing {
+    display: none;
+}
+.dev-showing {
+    display: none;
+}
+.des-showing {
+    display: none;
+}
 
 
 
