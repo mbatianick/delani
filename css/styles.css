@@ -10,7 +10,8 @@
     padding-right: 40px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 300px;      
+    padding-top: 300px;     
+    width: 100%; 
 }
 .w-h1 {
     color: white;
@@ -68,60 +69,50 @@ h6 {
 .col-p {
     text-align: center;
 }
+#proj1, #proj2, #proj3, #proj4, #proj5, #proj6, #proj7, #proj8 {
+    width: 153px;
+    height: 153px;
+    margin: 5px;
+
+}
 #proj1 {
     background-image: url(../IP3-master/assets/portfolio/work1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 50px;
-    margin-right: 5px;
-    padding-bottom: 50px;
-    height: 200px;
-    
-    
+    background-size: cover;  
 }
 #proj2 {
     background-image: url(../IP3-master/assets/portfolio/work2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
+    background-size: cover;
+    
 }   
 #proj3 {
     background-image: url(../IP3-master/assets/portfolio/work3.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 200px;
+    background-size: cover;
+  
 }
 #proj4 {
     background-image: url(../IP3-master/assets/portfolio/work4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
+    background-size: cover;
+   
 }
 #proj5 {
     background-image: url(../IP3-master/assets/portfolio/work5.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 50px;
-    margin-right: 5px;
-    height: 200px;
+    background-size: cover;
+    
 } 
 #proj6 {
     background-image: url(../IP3-master/assets/portfolio/work6.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
+    background-size: cover;
+    
 }
 #proj7 {
     background-image: url(../IP3-master/assets/portfolio/work7.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
+    background-size: cover;
+  
 }
 #proj8 {
     background-image: url(../IP3-master/assets/portfolio/work8.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
+    background-size: cover;
+    
 }
 .prod-showing {
     display: none;
@@ -132,7 +123,18 @@ h6 {
 .des-showing {
     display: none;
 }
-
+.form {
+    background-color: transparent;
+}
+#message {
+    margin-bottom: 5px;
+}
+#name, #email, #message {
+    background-color: transparent;
+}
+footer {
+    text-align: center;
+}
 
 
 
