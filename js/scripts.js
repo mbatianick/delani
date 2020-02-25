@@ -1,30 +1,30 @@
 $(document).ready(function(){
     //hide and show
-    $("#des-pic").click(function(){
-        $("#des-hidden").hide();
-        $("#des-showing").show();
+    $(".des-hidden").click(function(){
+        $(".des-hidden").hide();
+        $(".des-showing").show();
     });
-    $("#des-showing").click(function(){
-        $("#des-showing").hide();
-        $("#des-hidden").show();
-    });
-
-    $("#dev-pic").click(function(){
-        $("#dev-hidden").hide();
-        $("#dev-showing").show();
-    });
-    $("#dev-showing").click(function(){
-        $("#dev-showing").hide();
-        $("#dev-hidden").show();
+    $(".des-showing").click(function(){
+        $(".des-showing").hide();
+        $(".des-hidden").show();
     });
 
-    $("#prod-pic").click(function(){
-        $("#prod-hidden").hide();
-        $("#prod-showing").show();
+    $(".dev-hidden").click(function(){
+        $(".dev-hidden").hide();
+        $(".dev-showing").show();
     });
-    $("#prod-showing").click(function(){
-        $("#prod-showing").hide();
-        $("#prod-hidden").show();
+    $(".dev-showing").click(function(){
+        $(".dev-showing").hide();
+        $(".dev-hidden").show();
+    });
+
+    $(".prod-hidden").click(function(){
+        $(".prod-hidden").hide();
+        $(".prod-showing").show();
+    });
+    $(".prod-showing").click(function(){
+        $(".prod-showing").hide();
+        $(".prod-hidden").show();
     });
     
 
@@ -84,6 +84,18 @@ $(document).ready(function(){
     function() {
         $(this).animate({opacity: '1'})
     });
+    $("#submit").click (function(event){
+        event.preventDefault();
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+        if(name===""||email===""){
+            alert("please input your name and email")
+        }
+        else {
+            alert("Thankyou" +name+ " for your message. We will get back to you shortly.")
+        }
 
+    })
 
 });

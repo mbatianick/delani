@@ -71,47 +71,56 @@ h6 {
 }
 #proj1, #proj2, #proj3, #proj4, #proj5, #proj6, #proj7, #proj8 {
     width: 153px;
-    height: 153px;
-    margin: 5px;
+    height: 250px;
+    /* padding: 5px; */
+    /* margin-right: 2px; */
 
 }
 #proj1 {
     background-image: url(../IP3-master/assets/portfolio/work1.jpg);
-    background-size: cover;  
+    /* background-size: cover;   */
+    background-position: center;
 }
 #proj2 {
     background-image: url(../IP3-master/assets/portfolio/work2.jpg);
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: center;
     
 }   
 #proj3 {
     background-image: url(../IP3-master/assets/portfolio/work3.jpg);
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: center;
   
 }
 #proj4 {
     background-image: url(../IP3-master/assets/portfolio/work4.jpg);
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: center;
    
 }
 #proj5 {
     background-image: url(../IP3-master/assets/portfolio/work5.jpg);
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: center;
     
 } 
 #proj6 {
     background-image: url(../IP3-master/assets/portfolio/work6.jpg);
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: center;
     
 }
 #proj7 {
     background-image: url(../IP3-master/assets/portfolio/work7.jpg);
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: center;
   
 }
 #proj8 {
     background-image: url(../IP3-master/assets/portfolio/work8.jpg);
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: center;
     
 }
 .prod-showing {
@@ -134,9 +143,19 @@ h6 {
 }
 footer {
     text-align: center;
+    margin-top: 5px;
 }
-
-
+#submit {
+    text-align: center;
+    background-color: transparent;
+    margin-left: 500px;
+}
+#email {
+    float: right;
+}
+.contactus {
+    text-align: center;
+}
 
 
 
