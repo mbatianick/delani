@@ -33,21 +33,21 @@ $(document).ready(function(){
         $(this).animate({opacity: '0.5'});
     }, 
     function() {
-        $(this).animate({opacity: '1'})
+        $(this).animate({opacity: '2'})
     });
     //hover2
     $("#proj2").hover(function(){
         $(this).animate({opacity: '0.5'});
     }, 
     function() {
-        $(this).animate({opacity: '1'})
+        $(this).animate({opacity: '2'})
     });
     //hover3
     $("#proj3").hover(function(){
         $(this).animate({opacity: '0.5'});
     }, 
     function() {
-        $(this).animate({opacity: '1'})
+        $(this).animate({opacity: '2'})
     });
     //hover4
     $("#proj4").hover(function(){
@@ -61,28 +61,28 @@ $(document).ready(function(){
         $(this).animate({opacity: '0.5'});
     }, 
     function() {
-        $(this).animate({opacity: '1'})
+        $(this).animate({opacity: '2'})
     });
     //hover6
     $("#proj6").hover(function(){
         $(this).animate({opacity: '0.5'});
     }, 
     function() {
-        $(this).animate({opacity: '1'})
+        $(this).animate({opacity: '2'})
     });
     //hover7
     $("#proj7").hover(function(){
         $(this).animate({opacity: '0.5'});
     }, 
     function() {
-        $(this).animate({opacity: '1'})
+        $(this).animate({opacity: '2'})
     });
     //hover8
     $("#proj8").hover(function(){
         $(this).animate({opacity: '0.5'});
     }, 
     function() {
-        $(this).animate({opacity: '1'})
+        $(this).animate({opacity: '2'})
     });
     $("#submit").click (function(event){
         event.preventDefault();
